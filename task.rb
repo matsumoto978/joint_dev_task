@@ -123,9 +123,8 @@ def q14
   data = { name: "satou", age: 33, address: "saitama", hobby: "soccer", email: "hoge@fuga.com" }
 
   # 以下に回答を記載
-  data.each_key do |key|
-    puts key
-  end
+  array = data.keys
+  puts array
 end
 
 def q15
